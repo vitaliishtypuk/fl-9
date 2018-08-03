@@ -1,0 +1,172 @@
+/* 
+
+write your code here
+
+*/
+
+/* print version */
+@media print {
+
+    .tm-sidebar, #about, .heading, .blocks, #ideas, .img-fluid, #contact {
+        display: none;
+    }    
+    .tm-main-content {
+        margin: auto;
+        text-align: left;
+    }
+    .tm-team-description-container {
+        max-width: 100%;
+        margin: -8px 40px 0 40px;
+    }
+    h2.tm-section-title {
+        color: blue;
+    }
+    .flex-2-col {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .tm-banner {
+        height: 200px;
+        margin: 30px 30px 0 30px;
+        padding: 0px;
+    }
+    .pad {
+        padding: 12px;
+    }
+    .flex-item img {
+    	margin: -5px 0 -5px 0;
+    }
+}
+
+@media screen {
+    
+/* task 1 */
+    #about ul li,
+    #about ul li.box-bg h2 {
+        transition-duration: 0.5s;
+    }
+    #about ul li.box-bg:hover {
+        background-color: #31b0d5;
+    }
+    #about ul li.box-bg h2:hover {
+        color: white;
+        font-weight: bold;
+    }
+    #about ul li img {
+        border-radius: 50%;
+    }
+
+/* task 3 */
+    p:first-letter {
+        color: #76cdd7;
+        font-size: 30px;
+    }
+
+/* task 4 */
+    .tm-content-box, .tm-sidebar {
+        box-shadow: 0 0 10px rgba(0,0,0, 0.9);
+    }
+
+/* task 5 */
+    .tm-content-box {
+        position: relative;
+    }
+    .tm-content-box::after {
+        content: ''; 
+        position: absolute;
+        left: 0; 
+        top: 0;
+        width: 0;
+        height: 0;
+        border-top: 25px solid #31b0d5; 
+        border-right: 120px solid transparent;
+        z-index: 10;
+    }
+    .tm-content-box.flex-2-col:nth-child(2)::after{
+        display: none;
+    }
+
+/* task 6 */
+    div.carousel-content h2.tm-section-title {
+        color: gainsboro;
+        letter-spacing: 5px;
+    }
+
+/* task 7 */
+    h2 + p {
+        font-style: italic;
+    }
+
+/* task 8*/
+    p {
+        text-indent: 25px;
+        line-height: 1.4;
+    }
+
+/* task 9 */
+    section.heading.tm-content-box h2{
+        text-align: center;
+        color: #31b0d5;
+    }
+    .text:first-child::after,
+    .text:nth-child(3)::after {
+        content: "New";
+        color: red;
+        font-size: 12px;
+        vertical-align: top;
+    }    
+    .pad ol li a {
+        color: black;
+    }
+    .pad ol li a:visited {
+        color: silver;
+    }
+    .pad ol li a:hover {
+        border-bottom: 1px double;
+        color: #31b0d5;
+    }
+
+/* task 10 */
+    .boxes.gallery-container div h2 {
+        font-size: 2.8em;
+    }
+    .boxes.gallery-container div p {
+	    text-indent: 0px;
+        font-size: 1.4em;
+    }
+    section.blocks ul li:nth-child(odd) {
+        background: #f2f2f2;
+    }
+    .blocks .tm-content-box ul li p:first-letter {
+        color: black;
+    }
+
+/* task 11 */
+    .tm-main-nav {
+    	padding-top: 0px;
+		padding-bottom: 0px;
+    }
+    nav.tm-main-nav ul li {
+        border-bottom: 2px dotted silver;
+    }
+    nav.tm-main-nav ul li:last-child {
+        border: none;
+    }
+
+/* task 12*/
+    .form-group input,
+    .contact-form button {
+        color: red;
+    }
+    .mandatory-field::after {
+        content: "*";
+        color: red;
+        font-size: 15px;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    .contact-form button:hover {
+        background-color: #31b0d5;    
+    }
+}
+
