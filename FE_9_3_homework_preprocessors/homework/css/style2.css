@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #efefef;
+  color: #757575;
+  line-height: 1.2;
+  font-size: 1.1em;
+  font-family: Georgia, "Times New Roman", Times, serif; }
+  body a {
+    transition-duration: 1s;
+    color: #fc644a; }
+    body a:hover {
+      color: #dc2e03; }
+    body a:active {
+      color: #450e01; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
+    text-transform: uppercase; }
+
+.main-wrapper {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0; }
+
+header {
+  position: relative; }
+  header .logo {
+    display: inline-block;
+    width: 39%; }
+    header .logo img {
+      width: 100%; }
+  header nav {
+    position: absolute;
+    display: inline-block;
+    width: 61%;
+    padding: 15px 0;
+    top: 155px;
+    border-bottom: 1px solid #cfd8dc;
+    border-top: 1px solid #cfd8dc;
+    text-align: center; }
+    header nav a {
+      font-size: 20px;
+      text-decoration: none;
+      padding: 0 55px; }
+
+.toolbar {
+  text-align: right;
+  padding: 20px 0 5px 0; }
+  .toolbar input {
+    border: 1px solid;
+    border-color: #fc644a;
+    padding: 12px;
+    color: #fc644a;
+    background: #efefef;
+    font-size: 15px; }
+  .toolbar input::placeholder {
+    color: #fc644a; }
+
+.post-list {
+  width: 100%;
+  box-sizing: border-box; }
+  .post-list article:nth-child(2n-1) {
+    vertical-align: top;
+    margin: 15px 25px 10px 0; }
+  .post-list article:nth-child(2n) {
+    vertical-align: top;
+    margin: 15px 0 10px 25px; }
+  .post-list article {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: bottom;
+    background: #ffffff;
+    width: 47%;
+    padding: 15px; }
+    .post-list article img {
+      width: 100%; }
+    .post-list article .post-description {
+      font-size: 0.8em;
+      color: #bdbdbd;
+      padding: 10px 0 15px 0;
+      border-bottom: 1px solid #cfd8dc;
+      margin: 0 10px 2px 10px; }
+    .post-list article h3 {
+      font-size: 1.05em;
+      color: #617e8c;
+      margin: 0 10px -10px 10px; }
+    .post-list article p {
+      margin: 15px 10px 0 10px; }
+
+.about {
+  width: 100%;
+  margin-bottom: 45px; }
+  .about h1 {
+    color: #fc5830;
+    text-align: right;
+    margin: 80px 0 -20px 0; }
+  .about p {
+    margin: 25px 15px 25px 15px; }
+  .about img {
+    width: 100%; }
+
+.contact-form {
+  text-align: right;
+  width: 100%; }
+  .contact-form h1,
+  .contact-form h4 {
+    margin: 0;
+    text-align: right;
+    color: #fc5830; }
+  .contact-form form {
+    margin-top: 15px; }
+  .contact-form input,
+  .contact-form textarea {
+    border: 1px solid;
+    border-color: #cfd8dc;
+    background: #efefef;
+    box-sizing: border-box;
+    font-size: 19px;
+    font: 400 19px Arial;
+    padding: 15px;
+    margin: 10px 0;
+    width: 100%;
+    color: #757575; }
+    .contact-form input:hover,
+    .contact-form textarea:hover {
+      border-color: #fc644a;
+      color: #fc644a; }
+      .contact-form input:hover::placeholder,
+      .contact-form textarea:hover::placeholder {
+        color: #fc644a; }
+    .contact-form input:active,
+    .contact-form textarea:active {
+      border-color: #fc644a;
+      color: #5f1401; }
+  .contact-form textarea {
+    height: 150px; }
+  .contact-form input[type="submit"] {
+    transition-duration: 1s;
+    cursor: pointer;
+    border: transparent;
+    background: #fc5830;
+    color: white;
+    width: 25%; }
+    .contact-form input[type="submit"]:hover {
+      background: #dc2e03; }
+    .contact-form input[type="submit"]:active {
+      background: #450e01; }
+
+footer {
+  font-size: 15px; }
