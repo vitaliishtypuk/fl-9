@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Layouts</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="wrapper">
+        <div class="top-navigation">
+            <a href="#" class="logo">BLACK & WHITE</a>
+            <nav>
+                <ul class="main-navigation">
+                    <li><a href="#" class="main-navigation__item">Home</a></li>
+                    <li><a href="#" class="main-navigation__item">About</a></li>
+                    <li><a href="#" class="main-navigation__item">Vacancies</a></li>
+                    <li><a href="#" class="main-navigation__item">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="brand">
+            <h1 class="brand__header">BLACK <span class="brand__since--amp">&</span> WHITE</h1>
+            <p class="brand__since">An Original Brand Since 1965</p>
+        </div>
+        <div class="h-btn">
+            <button type="button">Show More</button>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="about-section">
+        <div class="wrapper">
+            <div class="about-section__content">
+                <h2 class="about-section__header">Lorem ipsum dolor sit amet, no eos <b> epicurei facilisi </b> explicari hendrerit prodesset sit eu.</h2>
+                <p class="about-section__text">Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                    Scripta molestie ea duo, eu duo.Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                    Scripta molestie ea duo, eu duo.</p>
+            </div>
+        </div>
+    </section>
+    <section class="featured-articles">
+        <div class="wrapper">
+            <h2 class="featured-articles__header">Read some of our <b>featured articles</b></h2>
+            <article class="featured-article">
+                <div class="featured-article__image-wrapper">
+                    <a href="#"  title="Read more!">
+                        <img src="img/sample.jpg" alt="Alt text here">
+                        <h2 class="featured-article__header">Januari'15 <b>South France</b></h2>
+                    </a>
+                    <button class="featured-article__like" title="Like!">172</button>
+                </div>
+                <p class="featured-article__intro">Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                        Scripta molestie ea duo, eu duo.
+                        Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                        Scripta molestie ea duo, eu duo.</p>
+            </article>
+            <article class="featured-article">
+                <div class="featured-article__image-wrapper">
+                    <a href="#"  title="Read more!">
+                        <img src="img/sample3.jpg" alt="Alt text here">
+                        <h2 class="featured-article__header">Januari'15 <b>South America</b></h2>
+                    </a>
+                    <button class="featured-article__like" title="Like!">172</button>
+                </div>
+                <p class="featured-article__intro">Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                        Scripta molestie ea duo, eu duo.
+                        Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                        Scripta molestie ea duo, eu duo.</p>
+            </article>
+            <article class="featured-article">
+                <div class="featured-article__image-wrapper">
+                    <a href="#"  title="Read more!">
+                        <img src="img/sample.jpg" alt="Alt text here">
+                        <h2 class="featured-article__header">Januari'15 <b>South France</b></h2>
+                    </a>
+                    <button class="featured-article__like" title="Like!">20</button>
+                </div>
+                <p class="featured-article__intro">Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                    Scripta molestie ea duo, eu duo.
+                    Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                    Scripta molestie ea duo, eu duo.</p>
+            </article>
+            <article class="featured-article">
+                <div class="featured-article__image-wrapper">
+                    <a href="#"  title="Read more!">
+                        <img src="img/sample3.jpg" alt="Alt text here">
+                        <h2 class="featured-article__header">Januari'15 <b>South America</b></h2>
+                    </a>
+                    <button class="featured-article__like" title="Like!">150</button>
+                </div>
+                <p class="featured-article__intro">Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                    Scripta molestie ea duo, eu duo.
+                    Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                    Scripta molestie ea duo, eu duo.</p>
+            </article>
+            <section class="newsletter-subscription">
+                <h2 class="newsletter-subscription__header">Subscribe to our <b>newspletter</b></h2>
+                <form action="/subscribtion" method="post" class="newsletter-subscription__form">
+                    <input type="email" name="email" class="newsletter-subscription__email" placeholder="Enter your e-mail address" required>
+                    <input type="submit" class="newsletter-subscription__btn" value="Subscribe">
+                </form>
+            </section>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="wrapper">
+        <section class="footer-info">
+            <div class="footer__about">
+                <h4 class="footer-info__header">Black &amp; White</h4>
+                <p class="footer__text">Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                    Scripta molestie ea duo, eu duo duo.</p>
+            </div>
+            <div class="footer__last-tweet">
+                <h4 class="footer-info__header">Last Tweet</h4>
+                <blockquote class="footer__last-tweet-text">... lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari hendrerit prodesset sit eu. 
+                    Scripta molestie ea duo, eu duo duo.</blockquote>
+                <p class="footer__last-tweet-time">3 hours ago</p>
+            </div>
+            <div class="footer__contact">
+                <h4 class="footer-info__header">Contact</h4>
+                <p class="footer__text"><a href="#">www.loremipsum.lo</a></p>
+                <p class="footer__text"><a href="#">182 AB Your Street Name</a></p>
+                <p class="footer__text"><a href="#">e-mail@loremipsum.com</a></p>
+                <p class="footer__text"><a href="#">+(121)01 23 43 679</a></p>
+            </div>
+            <div class="footer__newsletter">
+                <h4 class="footer-info__header">Newsletter</h4>
+                <p class="footer__text">Lorem ipsum dolor sit amet, no eos epicurei facilisi, explicari.</p>
+                <form action="/subscribtion" method="post" class="newsletter-subscription__form--footer">
+                    <input type="email" name="email" class="newsletter-subscription__email--footer" placeholder="Enter your e-mail address" required>
+                    <input type="submit" class="newsletter-subscription__btn--footer" value="Subscribe">
+                </form>
+            </div>
+        </section>
+        <div class="footer__bottom">
+            <p class="footer__copyright">&copy; 2015 Ruben Stom</p>
+            <ul class="footer__navigation">
+                <li><a href="#" class="footer__navigation__item">Home</a></li>
+                <li><a href="#" class="footer__navigation__item">About</a></li>
+                <li><a href="#" class="footer__navigation__item">Vacancies</a></li>
+                <li><a href="#" class="footer__navigation__item">Shop</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
