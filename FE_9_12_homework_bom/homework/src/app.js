@@ -78,7 +78,7 @@ const storage = {
  * @param attributes {object} object, that contains tag attributes
  * @param innerTEXT {string} innerText aka textContent of the tag element
  * @returns {HTMLElement}
- * @author Oleh Melnyk
+ * @author Vitalii Shtypuk
  * @example createElement('li', {'class': 'some-class', 'draggable': true}, 'Some inner text')
  */
 const createElement = (tag, attributes = {}, innerTEXT = '') => {
